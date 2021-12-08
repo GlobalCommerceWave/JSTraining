@@ -1,0 +1,2 @@
+# JSTraining
+basic of js
