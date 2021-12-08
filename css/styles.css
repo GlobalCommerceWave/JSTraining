@@ -1,3 +1,29 @@
 h1 {
-    color: red;
+    color: #926239;
+}
+body {
+    background-image: url(https://traversymedia.com/downloads/assets/beachshowcase.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block-centr {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -450px;
+    text-align: center;
+    color: #926239;
+}
+button {
+    border: 1px solid #926239;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #926239;
+    font-size: 18px;
+}
+button:hover {
+    background-color: #926239;
+    color: white;
 }
