@@ -1,3 +1,31 @@
 h1 {
+    text-align: center;
+}
+body {
+    background-color: rgb(169, 216, 210);
+}
+.content {
+    background-color: rgb(250, 250, 250);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.data {
+    display: flex;
+}
+.data > div {
+    width: 50%;
+}
+.data > div:first-child {
+    text-align: right;
+    margin: 5px;
+}
+.data1 {
+    text-align: center;
+}
+.data {
+    margin: 13px;
+}
+.required::before {
+    content: "*";
     color: red;
 }
