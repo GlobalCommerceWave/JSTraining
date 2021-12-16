@@ -1,3 +1,69 @@
-h1 {
-    color: red;
+.bodyMain {
+    border: 2px solid green;
+    padding: 10px;
+    height: 280px;
+}
+.input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.inputSecond {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    background-color: white;
+    background: white;
+    z-index: 2;
+    cursor: text;
+}
+.hov {
+    cursor: pointer;
+}
+
+.bot {
+    position: relative;
+    z-index: 1;
+}
+.rowInput {
+    position: relative;
+    z-index: 2;
+}
+.botRow,
+.photo {
+    position: relative;
+    z-index: 1;
+}
+
+.branches {
+    width: 100%;
+    border: none;
+    height: 30px;
+    width: 100%;
+    z-index: 2;
+    cursor: pointer;
+    min-height: 240px;
+    overflow-y: scroll;
+    position: relative;
+    background: white;
+}
+.branches li:hover {
+    background: #e5f5ec;
+}
+.branches li {
+    list-style-type: none;
+    font-size: large;
+    padding-bottom: 3px;
+}
+.block {
+    z-index: 3;
+    position: absolute;
+    display: none;
+    background-color: white;
+    padding-right: 0.75rem;
 }
