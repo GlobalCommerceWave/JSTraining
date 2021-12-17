@@ -60,7 +60,10 @@ $(document).ready(function () {
     });
 
     $("body").on("click", function (evt) {
-        if (!$(evt.target).hasClass("in")) {
+        if (
+            !$(evt.target).hasClass("in") &&
+            !$(evt.target).hasClass("inputSecond")
+        ) {
             $(".in").removeClass("hideBlock");
             $(".block").hide();
         }
