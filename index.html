@@ -1,27 +1,664 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Lessons</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="static/default/css/global.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="back-to-top"><img class="img-back" src="images/back-to-top.png" alt=""></div>
+    <div class="conteiner ">
+        <div class="row justify-content-between pt-3 pb-3 text-uppercase" >
+            <div class="col ms-5 d-lg-flex d-none d-lg-block">
+                <div id="hide" class="me-3"> FASHION & ACCESSORIES</div>
+                <div id="show" class="fw-bold"> FRAGRANCE & BEAUTY </div>
 
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="css/styles.css" />
-        <script
-            src="https://code.jquery.com/jquery-3.6.0.js"
-            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-            crossorigin="anonymous"
-        ></script>
-    </head>
+            </div>
+            <div class="col">
+                 <div class="text-center logo">
+                    <img src="images/logo.svg" alt="">
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex float-end me-4">
+                    <div class="d-none d-lg-block"><img src="images/Vector.png" alt=""></div>
+                    <div class="d-none d-lg-block"><img src="images/Wishlist.svg" alt=""></div>
+                    <div><img src="images/Account.png" alt=""></div>
+                    <div><img src="images/Cart.png" alt=""></div>
+                    <div class="d-lg-none"> <img src="images/Menu.png" alt=""> </div>
+                </div>
+            </div>
+        </div>
+        <div id="element" class="row border-top border-bottom text-uppercase d-none d-lg-block">
+            <div class="d-flex justify-content-start pt-3 pb-3 ms-5">
+                <span class="me-3">Women’s fragrance</span>
+                <span class="me-3">men’s fragrance</span>
+                <span class="me-3">la collection privée</span>
+                <span class="me-3">make-up</span>
+                <span class="me-3">skincare</span>
+                <span class="me-3">gift</span>
+                <span class="me-3">services</span>
+                <span class="me-3">dior spa</span>
+                <span>About DIOR</span>
+            </div>
+        </div>
+        <div class="row d-lg-none">
+            <div class="col-12 ">
+            <input type="text" class="w-100 border-0 border-bottom ps-4" placeholder="Find on dior.com">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center mt-5 fs-4">
+                <span class="d-lg-none" >SAUVAGE</span> <span class="d-none d-lg-block"> ALL FRAGANCE </span>
+            </div>
+        </div>
+        <div class="row col-12 text-center justify-content-center mt-1">
+            <div class="w-50">Sauvage is an act of creation inspired by wide-open spaces. A composition marked by a raw freshness,
+            powerful and noble all at once.</div>
+        </div>
+        <div class="row float-end me-4s mt-lg-5 ">
+            <div>
+                <img src="images/NormalView.png" alt="">
+                <img src="images/GridView.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center mt-5 fs-5 ">
+            SAUVAGE
+            </div>
+        </div>
 
-    <body>
-        <!-- your content here... -->
-        <h1>Lessons</h1>
-        <script src="js/main.js"></script>
-    </body>
+        <!-- Elixir1 -->
+
+        <div class="row ps-5 mt-4 mb-2">
+                <div class="col-12 col-md-4 px-3 position-relative ">
+                    <img src="images/f545_dh_new_edt_m01c_sw_nqf39 1.png" class="w-100" alt="">
+                    <div class="position-absolute top-0 end-0 pe-4">
+                    <img src="images/Wishlist.svg" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="col-12 fw-bold fs-5 pt-3">
+                            Sauvage Elixir
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 fs-5 pt-2">
+                            Élixir - notes épicées, fraîches et boisées
+                        </div>
+                    </div>
+                    <div class="row justify-content-start">
+                        <div class="d-flex mt-2">
+                        <div class="fs-5 me-3">
+                            Intensity
+                        </div>
+                        <div class="fs-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill"
+                                viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill"
+                                viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill"
+                                viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill"
+                                viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 fw-bold fs-5 pt-3">
+                            From £69.00 - Spray 60 ml
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 px-3 position-relative">
+                    <img src="images/f545_dh_new_edt_m01c_sw_nqf39 1.png" class="w-100" alt="">
+                    <div class="position-absolute top-0 end-0 pe-4">
+                        <img src="images/Wishlist.svg" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="col-12 fw-bold fs-5 pt-3">
+                            Sauvage Elixir
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 fs-5 pt-2">
+                            Élixir - notes épicées, fraîches et boisées
+                        </div>
+                    </div>
+                    <div class="row justify-content-start">
+                        <div class="d-flex mt-2">
+                            <div class="fs-5 me-3">
+                                Intensity
+                            </div>
+                            <div class="fs-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill"
+                                    viewBox="0 0 16 16">
+                                    <circle cx="5" cy="5" r="5" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill"
+                                    viewBox="0 0 16 16">
+                                    <circle cx="5" cy="5" r="5" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill"
+                                    viewBox="0 0 16 16">
+                                    <circle cx="5" cy="5" r="5" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill"
+                                    viewBox="0 0 16 16">
+                                    <circle cx="5" cy="5" r="5" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 fw-bold fs-5 pt-3">
+                            From £69.00 - Spray 60 ml
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 px-3 position-relative">
+                    <img src="images/f545_dh_new_edt_m01c_sw_nqf39 1.png" class= " w-100"  alt="">
+                    <div class="position-absolute top-0 end-0 pe-4">
+                        <img src="images/Wishlist.svg" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="col-12 fw-bold fs-5 pt-3">
+                            Sauvage Elixir
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 fs-5 pt-2">
+                            Élixir - notes épicées, fraîches et boisées
+                        </div>
+                    </div>
+                    <div class="row justify-content-start">
+                        <div class="d-flex mt-2">
+                            <div class="fs-5 me-3">
+                                Intensity
+                            </div>
+                            <div class="fs-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill"
+                                    viewBox="0 0 16 16">
+                                    <circle cx="5" cy="5" r="5" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill"
+                                    viewBox="0 0 16 16">
+                                    <circle cx="5" cy="5" r="5" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill"
+                                    viewBox="0 0 16 16">
+                                    <circle cx="5" cy="5" r="5" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill"
+                                    viewBox="0 0 16 16">
+                                    <circle cx="5" cy="5" r="5" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 fw-bold fs-5 pt-3">
+                            From £69.00 - Spray 60 ml
+                        </div>
+                    </div>
+                </div>
+        
+        </div>
+        <div class="row ps-5 mt-5">
+            <div class="col-12 col-md-4 px-3 position-relative ">
+                <img src="images/f545_dh_new_edt_m01c_sw_nqf39 1.png" class="w-100" alt="">
+                <div class="position-absolute top-0 end-0 pe-4">
+                    <img src="images/Wishlist.svg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        Sauvage Elixir
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fs-5 pt-2">
+                        Élixir - notes épicées, fraîches et boisées
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="d-flex mt-2">
+                        <div class="fs-5 me-3">
+                            Intensity
+                        </div>
+                        <div class="fs-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        From £69.00 - Spray 60 ml
+                    </div>
+        
+                </div>
+            </div>
+            <div class="col-12 col-md-4 px-3 position-relative" >
+                <img src="images/f545_dh_new_edt_m01c_sw_nqf39 1.png" class="w-100" alt="">
+                <div class="position-absolute top-0 end-0 pe-4">
+                    <img src="images/Wishlist.svg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        Sauvage Elixir
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fs-5 pt-2">
+                        Élixir - notes épicées, fraîches et boisées
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="d-flex mt-2">
+                        <div class="fs-5 me-3">
+                            Intensity
+                        </div>
+                        <div class="fs-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        From £69.00 - Spray 60 ml
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 px-3 position-relative ">
+                <img src="images/f545_dh_new_edt_m01c_sw_nqf39 1.png" class=" w-100" alt="">
+                <div class="position-absolute top-0 end-0 pe-4">
+                    <img src="images/Wishlist.svg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        Sauvage Elixir
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fs-5 pt-2">
+                        Élixir - notes épicées, fraîches et boisées
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="d-flex mt-2">
+                        <div class="fs-5 me-3">
+                            Intensity
+                        </div>
+                        <div class="fs-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        From £69.00 - Spray 60 ml
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center fs-5 mt-5 pt-3">
+                <div class="border-top">
+                </div>
+                <div class="mt-5 pt-2"> EAU SAUVAGE </div>
+            </div> 
+        </div>
+
+        <!-- Elixir2 -->
+
+        <div class="row ps-5 mt-5">
+            <div class="col-12 col-md-4 px-3 position-relative ">
+                <img src="images/hvgu.png" class="w-100" alt="">
+                <div class="position-absolute top-0 end-0 pe-4">
+                    <img src="images/Wishlist.svg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        Sauvage Elixir
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fs-5 pt-2">
+                        Élixir - notes épicées, fraîches et boisées
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="d-flex mt-2">
+                        <div class="fs-5 me-3">
+                            Intensity
+                        </div>
+                        <div class="fs-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        From £69.00 - Spray 60 ml
+                    </div>
+        
+                </div>
+            </div>
+            <div class="col-12 col-md-4 px-3 position-relative">
+                <img src="images/hvgu.png" class="w-100" alt="">
+                <div class="position-absolute top-0 end-0 pe-4">
+                    <img src="images/Wishlist.svg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        Sauvage Elixir
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fs-5 pt-2">
+                        Élixir - notes épicées, fraîches et boisées
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="d-flex mt-2">
+                        <div class="fs-5 me-3">
+                            Intensity
+                        </div>
+                        <div class="fs-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        From £69.00 - Spray 60 ml
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 px-3 position-relative ">
+                <img src="images/hvgu.png" class=" w-100" alt="">
+                <div class="position-absolute top-0 end-0 pe-4">
+                    <img src="images/Wishlist.svg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        Sauvage Elixir
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fs-5 pt-2">
+                        Élixir - notes épicées, fraîches et boisées
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="d-flex mt-2">
+                        <div class="fs-5 me-3">
+                            Intensity
+                        </div>
+                        <div class="fs-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        From £69.00 - Spray 60 ml
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ps-5 mt-5">
+            <div class="col-12 col-md-4 px-3 position-relative ">
+                <img src="images//hvgu.png" class="w-100" alt="">
+                <div class="position-absolute top-0 end-0 pe-4">
+                    <img src="images/Wishlist.svg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        Sauvage Elixir
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fs-5 pt-2">
+                        Élixir - notes épicées, fraîches et boisées
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="d-flex mt-2">
+                        <div class="fs-5 me-3">
+                            Intensity
+                        </div>
+                        <div class="fs-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        From £69.00 - Spray 60 ml
+                    </div>
+        
+                </div>
+            </div>
+            <div class="col-12 col-md-4 px-3 position-relative">
+                <img src="images/hvgu.png" class="w-100" alt="">
+                <div class="position-absolute top-0 end-0 pe-4">
+                    <img src="images/Wishlist.svg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        Sauvage Elixir
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fs-5 pt-2">
+                        Élixir - notes épicées, fraîches et boisées
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="d-flex mt-2">
+                        <div class="fs-5 me-3">
+                            Intensity
+                        </div>
+                        <div class="fs-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        From £69.00 - Spray 60 ml
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 px-3 position-relative ">
+                <img src="images/hvgu.png" class=" w-100" alt="">
+                <div class="position-absolute top-0 end-0 pe-4">
+                    <img src="images/Wishlist.svg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        Sauvage Elixir
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fs-5 pt-2">
+                        Élixir - notes épicées, fraîches et boisées
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="d-flex mt-2">
+                        <div class="fs-5 me-3">
+                            Intensity
+                        </div>
+                        <div class="fs-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="5" cy="5" r="5" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fw-bold fs-5 pt-3">
+                        From £69.00 - Spray 60 ml
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="main.js"></script>
+</body>
 </html>

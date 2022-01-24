@@ -1,0 +1,15 @@
+{
+  "name": "Plp",
+  "version": "0.0.1",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^2.1.6",
+    "sass-loader": "^7.3.1",
+    "bootstrap": "^5.1.3",
+    "sgmf-scripts": "^2.4.1"
+  },
+  "scripts": {
+    "compile:scss": "sgmf-scripts --compile css"
+  }
+}
