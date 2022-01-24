@@ -1,0 +1,104 @@
+@import "bootstrap/scss/functions";
+
+// scss-docs-start color-variables
+
+$primary-default: #bb39bc !default;
+$primary-light: #ffedff !default;
+$primary-dark: #8332b4 !default;
+$secondary-default: #1c96ee !default;
+$secondary-light: #d5e6ff !default;
+$secondary-dark: #0028b7 !default;
+$success-default: #00ba88 !default;
+$success-light: #f3fdfa !default;
+$success-dark: #00966d !default;
+$error-default: #ff4c9c !default;
+$error-light: #fff2f7 !default;
+$error-dark: #c30052 !default;
+$warning-default: #f4b740 !default;
+$warning-light: #fff0d4 !default;
+$warning-dark: #a26b00 !default;
+$grayscale-title: #14142b !default;
+$grayscale-body: #4e4b66 !default;
+$grayscale-label: #6e7191 !default;
+$grayscale-placeholder: #a0a3bd !default;
+$grayscale-line: #d6d8e7 !default;
+$grayscale-inp-back: #eff0f6 !default;
+$grayscale-back: #f7f7fc !default;
+$grayscale-off-white: #fcfcfc !default;
+$gradient1-1: #ed017f !default;
+$gradient1-2: #ed017f !default;
+$gradient2-1: #624af2 !default;
+$gradient2-2: #50ddc3 !default;
+$gradient3-1: #eb0055 !default;
+$gradient3-2: #fffa80 !default;
+$grayAB: #8392ab !default;
+$black1: #252f40 !default;
+// scss-docs-end color-variables
+
+// scss-docs-start colors-map
+$colors: (
+  "primary": $primary-default,
+  "primary-l": $primary-light,
+  "primary-d": $primary-dark,
+  "secondary": $secondary-default,
+  "secondary-l": $secondary-light,
+  "secondary-d": $secondary-dark,
+  "success": $success-default,
+  "success-l": $success-light,
+  "success-d": $success-dark,
+  "error-df": $error-default,
+  "error-l": $error-light,
+  "error-d": $error-dark,
+  "warning": $warning-default,
+  "warning-l": $warning-light,
+  "warning-d": $warning-dark,
+  "grayscale-t": $grayscale-title,
+  "grayscale-body": $grayscale-body,
+  "grayscale-l": $grayscale-label,
+  "grayscale-pl": $grayscale-placeholder,
+  "grayscale-line": $grayscale-line,
+  "grayscale-inp-b": $grayscale-inp-back,
+  "grayscale-b": $grayscale-back,
+  "grayscale-off-white": $grayscale-off-white,
+  "grayAB": $grayAB,
+  "black1": $black1,
+) !default;
+// scss-docs-end colors-map
+
+$theme-colors: (
+  "primary": $primary-default,
+  "secondary": $secondary-default,
+  "success": $success-default,
+  "warning": $warning-default,
+  "primary-l": $primary-light,
+  "primary-d": $primary-dark,
+  "secondary-l": $secondary-light,
+  "secondary-d": $secondary-dark,
+  "success-l": $success-light,
+  "success-d": $success-dark,
+  "error-df": $error-default,
+  "error-l": $error-light,
+  "error-d": $error-dark,
+  "warning-l": $warning-light,
+  "warning-d": $warning-dark,
+  "grayscale-t": $grayscale-title,
+  "grayscale-body": $grayscale-body,
+  "grayscale-l": $grayscale-label,
+  "grayscale-pl": $grayscale-placeholder,
+  "grayscale-line": $grayscale-line,
+  "grayscale-inp-b": $grayscale-inp-back,
+  "grayscale-b": $grayscale-back,
+  "grayscale-off-white": $grayscale-off-white,
+  "grayAB": $grayAB,
+  "black1": $black1,
+) !default;
+
+// scss-docs-start theme-color-variables
+$primary: $primary-default !default;
+$secondary: $secondary-default !default;
+$success: $success-default !default;
+$warning: $warning-default !default;
+
+// scss-docs-start font-variables
+$font-family-sans-serif: "Inter";
+$font-family-monospace: "Inter";
